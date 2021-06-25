@@ -1,0 +1,11 @@
+{
+	"@type":"Process",
+	"Name":"testing rule",
+	"Code@Code.link":"testing rule.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[]
+}

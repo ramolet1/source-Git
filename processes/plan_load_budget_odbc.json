@@ -1,0 +1,74 @@
+{
+	"@type":"Process",
+	"Name":"plan_load_budget_odbc",
+	"Code@Code.link":"plan_load_budget_odbc.ti",
+	"DataSource":
+	{
+		"Type":"ODBC",
+		"dataSourceNameForClient":"Plan_load_data",
+		"dataSourceNameForServer":"Plan_load_data",
+		"password":"yXAfkHWpTC;1f@o5N@=ToSpNSaUysq01Er009W@l:98AkG=5^8DmspT9wPQnop8`<x[Z6CTkStqg6G5z7Yq;rVJ6RxK<5rvB3\\E8\\1O4TTOVjn`4s@JYdpGISH[82cnM?>2;wC1N5zMCObVhvL7E6`6=MMW^z?KhsfjRAuO[a6Np]xUb0]6EXq>0W;OzjXOer7BsTZ@G",
+		"query":"select * from plan_load_budgets",
+		"userName":"admin",
+		"usesUnicode":false
+	},
+	"Parameters":
+	[
+		{
+			"Name":"PVersion",
+			"Prompt":"Which Version?",
+			"Value":"FY 2003 Budget",
+			"Type":"String"
+		},
+		{
+			"Name":"PStartDate",
+			"Prompt":"Budget Start Date?",
+			"Value":"Jan-2003",
+			"Type":"String"
+		},
+		{
+			"Name":"PEndDate",
+			"Prompt":"Budget End Date?",
+			"Value":"Dec-2003",
+			"Type":"String"
+		}
+	],
+	"Variables":
+	[
+		{
+			"Name":"plan_date",
+			"Type":"String",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"plan_department",
+			"Type":"String",
+			"Position":2,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"plan_business_unit",
+			"Type":"String",
+			"Position":3,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"plan_acount",
+			"Type":"String",
+			"Position":4,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"plan_value",
+			"Type":"Numeric",
+			"Position":5,
+			"StartByte":0,
+			"EndByte":0
+		}
+	]
+}

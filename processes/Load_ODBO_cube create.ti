@@ -1,0 +1,38 @@
+#region Prolog
+#****Begin: Generated Statements***
+IF ( CUBEEXISTS('PNLCube') <> 0 );   CUBEDESTROY('PNLCube'); ENDIF; 
+ret_code=EXECUTEPROCESS('Load_ODBO_cube create_actvsbud');
+if (ret_code = ProcessExitSeriousError() );
+ProcessError();
+endif;
+ret_code=EXECUTEPROCESS('Load_ODBO_cube create_region');
+if (ret_code = ProcessExitSeriousError() );
+ProcessError();
+endif;
+ret_code=EXECUTEPROCESS('Load_ODBO_cube create_account2');
+if (ret_code = ProcessExitSeriousError() );
+ProcessError();
+endif;
+ret_code=EXECUTEPROCESS('Load_ODBO_cube create_month');
+if (ret_code = ProcessExitSeriousError() );
+ProcessError();
+endif;
+CUBECREATE('PNLCube','actvsbud','region','account2','month');
+OldCubeLogChanges = CUBEGETLOGCHANGES('PNLCube');
+CUBESETLOGCHANGES('PNLCube', 0);
+#****End: Generated Statements****
+#endregion
+#region Metadata
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+#****Begin: Generated Statements***
+IF (VALUE_IS_STRING=1, CELLPUTS(SVALUE,'PNLCube',actvsbud,region,account2,V1), CELLPUTN(NVALUE, 'PNLCube', actvsbud,region,account2,V1));
+#****End: Generated Statements****
+#endregion
+#region Epilog
+#****Begin: Generated Statements***
+CUBESETLOGCHANGES('PNLCube', OldCubeLogChanges);
+#****End: Generated Statements****
+#endregion
