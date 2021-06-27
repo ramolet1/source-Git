@@ -21,8 +21,9 @@
 	],
   "Ignore": [
     "Cubes/Views",
-  "!Cubes('testabc')",
-  "!Processes('Ignore')"
+  "!Cubes('test123')",
+  "!Processes('Ignore')",
+  "Processes('Ignore')"
   ],
   "Deployment": {},
   "PrePull": [],
