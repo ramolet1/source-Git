@@ -1,15 +1,9 @@
 {
 	"@type":"Cube",
-	"Name":"PNLCube",
-	"Rules@Code.link":"PNLCube.rules",
+	"Name":"test123",
+	"Rules@Code.link":"test123.rules",
 	"Dimensions":
 	[
-		{
-			"@id":"Dimensions('actvsbud')"
-		},
-		{
-			"@id":"Dimensions('region')"
-		},
 		{
 			"@id":"Dimensions('account2')"
 		},

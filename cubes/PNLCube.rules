@@ -1,5 +1,6 @@
 #Region System
 FEEDSTRINGS;
 SKIPCHECK;
+['Transportation Costs']=N:20;
 #EndRegion
 ##1

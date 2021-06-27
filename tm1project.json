@@ -1,0 +1,32 @@
+{
+  "Version": "1.0",
+  "Name": "My Model",
+  "Settings": {
+    "Performance": {
+      "MTQ": {
+        "MTFeedersAtStartup": false
+      }
+    }
+  },
+  "Tasks": {
+      "Refresh Security":
+    {
+      "Process": "Processes('Refresh Security')",
+      "Parameters": []
+    }
+	},
+  "Objects": {},
+  "Files": [
+      "\\admin\\*\\*"
+	],
+  "Ignore": [
+    "Cubes/Views",
+  "!Cubes('testabc')",
+  "!Processes('Ignore')"
+  ],
+  "Deployment": {},
+  "PrePull": [],
+  "PostPull": [],
+  "PrePush": [],
+  "PostPush": []
+}

@@ -1,0 +1,15 @@
+{
+	"@type":"Cube",
+	"Name":"test1234",
+	"Rules@Code.link":"test1234.rules",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('account2')"
+		},
+		{
+			"@id":"Dimensions('region')"
+		}
+	],
+	"Views@Code.links":[]
+}
