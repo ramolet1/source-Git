@@ -17,5 +17,15 @@
 			"@id":"Dimensions('month')"
 		}
 	],
-	"Views@Code.links":[]
+	"Views@Code.links":
+	[
+		"PNLCube.views/Default.json",
+		"PNLCube.views/Exploration1.json",
+		"PNLCube.views/test_for_Quick.json",
+		"PNLCube.views/Test_month.json",
+		"PNLCube.views/test_transport.json",
+		"PNLCube.views/Asymetric-Exploration.json",
+		"PNLCube.views/attribute_view.json",
+		"PNLCube.views/testing11.json"
+	]
 }

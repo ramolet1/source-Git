@@ -1,0 +1,11 @@
+{
+	"@type":"Process",
+	"Name":"Ignore",
+	"Code@Code.link":"Ignore.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[]
+}

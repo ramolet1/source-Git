@@ -1,13 +1,7 @@
 {
   "Version": "1.0",
-  "Name": "My Model",
-  "Settings": {
-    "Performance": {
-      "MTQ": {
-        "MTFeedersAtStartup": false
-      }
-    }
-  },
+  "Name": "My Model"
+},
   "Tasks": {
       "Refresh Security":
     {
@@ -21,8 +15,7 @@
 	],
   "Ignore": [
     "Cubes/Views",
-  "!Cubes('test123')",
-  "!Processes('Ignore')",
+  "Cubes('test123')",
   "Processes('Ignore')"
   ],
   "Deployment": {},

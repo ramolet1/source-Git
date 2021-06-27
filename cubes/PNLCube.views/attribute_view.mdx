@@ -1,0 +1,1 @@
+SELECT {DRILLDOWNMEMBER({[account2].[account2].[Earnings Before Taxes]}, {[account2].[account2].[Earnings Before Taxes], [account2].[account2].[Gross Margin]}, RECURSIVE)} ON 0, {DRILLDOWNMEMBER({[month].[month].[Year]}, {[month].[month].[Year]})} ON 1 FROM [PNLCube] WHERE ([actvsbud].[actvsbud].[Variance], [region].[region].[World])

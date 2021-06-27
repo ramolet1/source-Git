@@ -11,5 +11,8 @@
 			"@id":"Dimensions('region')"
 		}
 	],
-	"Views@Code.links":[]
+	"Views@Code.links":
+	[
+		"test1234.views/Default.json"
+	]
 }
