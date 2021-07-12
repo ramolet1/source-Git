@@ -1,0 +1,104 @@
+{
+	"@type":"NativeView",
+	"Name":"Default",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('month')/Hierarchies('month')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('month')/Hierarchies('month')/Elements('Year')"
+					},
+					{
+						"@id":"Dimensions('month')/Hierarchies('month')/Elements('1 Quarter')"
+					},
+					{
+						"@id":"Dimensions('month')/Hierarchies('month')/Elements('Jan')"
+					},
+					{
+						"@id":"Dimensions('month')/Hierarchies('month')/Elements('Feb')"
+					},
+					{
+						"@id":"Dimensions('month')/Hierarchies('month')/Elements('Mar')"
+					},
+					{
+						"@id":"Dimensions('month')/Hierarchies('month')/Elements('2 Quarter')"
+					},
+					{
+						"@id":"Dimensions('month')/Hierarchies('month')/Elements('3 Quarter')"
+					},
+					{
+						"@id":"Dimensions('month')/Hierarchies('month')/Elements('4 Quarter')"
+					}
+				]
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('account2')/Hierarchies('account2')"
+				},
+				"Elements":
+				[
+					{
+						"@id":"Dimensions('account2')/Hierarchies('account2')/Elements('Sales')"
+					},
+					{
+						"@id":"Dimensions('account2')/Hierarchies('account2')/Elements('Variable Costs')"
+					},
+					{
+						"@id":"Dimensions('account2')/Hierarchies('account2')/Elements('Gross Margin')"
+					},
+					{
+						"@id":"Dimensions('account2')/Hierarchies('account2')/Elements('Sales')"
+					},
+					{
+						"@id":"Dimensions('account2')/Hierarchies('account2')/Elements('Variable Costs')"
+					},
+					{
+						"@id":"Dimensions('account2')/Hierarchies('account2')/Elements('Advertising')"
+					},
+					{
+						"@id":"Dimensions('account2')/Hierarchies('account2')/Elements('Sales Promotions')"
+					},
+					{
+						"@id":"Dimensions('account2')/Hierarchies('account2')/Elements('Dealer Incentive Plan')"
+					},
+					{
+						"@id":"Dimensions('account2')/Hierarchies('account2')/Elements('Marketing')"
+					},
+					{
+						"@id":"Dimensions('account2')/Hierarchies('account2')/Elements('Plant Overhead')"
+					},
+					{
+						"@id":"Dimensions('account2')/Hierarchies('account2')/Elements('Transportation Costs')"
+					},
+					{
+						"@id":"Dimensions('account2')/Hierarchies('account2')/Elements('General Administration')"
+					},
+					{
+						"@id":"Dimensions('account2')/Hierarchies('account2')/Elements('Total Expenses')"
+					},
+					{
+						"@id":"Dimensions('account2')/Hierarchies('account2')/Elements('Earnings Before Taxes')"
+					}
+				]
+			}
+		}
+	],
+	"Titles":[],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"0.#########"
+}

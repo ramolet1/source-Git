@@ -3,10 +3,9 @@
   "Name": "My Model"
 },
   "Tasks": {
-      "Refresh Security":
+      "save data":
     {
-      "Process": "Processes('Refresh Security')",
-      "Parameters": []
+      "Process": "Processes('save1')"
     }
 	},
   "Objects": {},
