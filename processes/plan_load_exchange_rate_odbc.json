@@ -7,7 +7,7 @@
 		"Type":"ODBC",
 		"dataSourceNameForClient":"plan_load_data",
 		"dataSourceNameForServer":"plan_load_data",
-		"password":"rtZdO]]LpAKp9Vs[Dnask1x4;5c5p:upkUd]fKt=0Fa^b3:AVL49L?45MQQCqWBqJJVvFLLM9>1cRniEOtTvV6j?128WuKly?d51k6BoYLB6;sGewZ:N=497Dr]AYO2G9qZtDR9[Xi@pVcbqLw379qE0AICnQwgs784NMU30uhXU2MHZUOwe4NFSi7\\n5ayn?nY:>UT7",
+		"password":"p\\2axTAeiOhDtI]baZ4a`PFJQDMRY4:0?\\Z6yTauMu`UVgkI98`W6;NC;97j5qRNBnaPj9s[OSLSvjIdKEZXMdZS9yy0Ruyaji4;SpQl:b`o?9vVCLEUemj:MtWNJK?B_V48cHR[Q[a@L41uVFW4Jrkq9E4zB3c?h2tOqme?JNo4zF>b``JD<H0B>Ah?>JPoy]n<1wWD",
 		"query":"select * from plan_load_exchange_rates",
 		"userName":"admin",
 		"usesUnicode":false

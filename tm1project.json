@@ -15,7 +15,8 @@
   "Ignore": [
     "Cubes/Views",
   "Cubes('test123')",
-  "Processes('Ignore')"
+  "Processes('Ignore')",
+  "Processes('Add')"
   ],
   "Deployment": {},
   "PrePull": [],
